@@ -8,14 +8,21 @@
 
 import Foundation
 
+struct Map: Codable {
+    let directions: Directions?
+}
 
 struct Directions : Codable {
     var currentLocation: String?
-    var nextHeading: Double?
+    var destinations: [Destination]?
+}
+
+struct Destination: Codable {
+    var destination: String?
     var steps: [Steps]?
 }
 
 struct Steps : Codable{
     var distance: Double?
-    var relativeHeading: Double?
+    var heading: Double?
 }

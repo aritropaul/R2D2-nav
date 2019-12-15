@@ -20,6 +20,7 @@ class NavigationViewController: UIViewController {
     @IBOutlet weak var directionalArrowImage: UIImageView!
     
     var destinationLocation: String?
+    var directions: Map?
     
     override func viewDidLayoutSubviews() {
         infoView.alpha = 0.85
@@ -31,7 +32,23 @@ class NavigationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationView.delegate = self
-        locationLabel.text = "TT Gallery 1"
+        locationLabel.text = destinationLocation
+        
+        
+        if let path = Bundle.main.path(forResource: "Map", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
+//                print(String(data: data, encoding: .utf8))
+                directions = try JSONDecoder().decode(Map.self, from: data)
+                print("jsonData:\(directions)")
+            } catch let error {
+                print("parse error: \(error.localizedDescription)")
+            }
+        } else {
+            print("Invalid filename/path.")
+        }
+        
+        
         // Do any additional setup after loading the view.
     }
     
@@ -39,6 +56,10 @@ class NavigationViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
+    
+    func mapParser() {
+        
+    }
 
 }
 

@@ -1,0 +1,17 @@
+{
+    "directions" : {
+        "currentLocation" : "TT Gallery 1",
+        "destinations":
+        [
+            {
+                "destination": "CTS Office",
+                "steps": [
+                    {
+                        "distance": 30,
+                        "heading" : 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -20,7 +20,7 @@
 		30FB0B8B23A5DBF1000C619E /* CompassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8A23A5DBF1000C619E /* CompassManager.swift */; };
 		30FB0B8D23A5DE2B000C619E /* DistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8C23A5DE2B000C619E /* DistanceManager.swift */; };
 		30FB0B8F23A5E289000C619E /* DirectionalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8E23A5E289000C619E /* DirectionalData.swift */; };
-		30FB0B9123A5EAA8000C619E /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = 30FB0B9023A5EAA8000C619E /* map.json */; };
+		30FB0B9123A5EAA8000C619E /* Map.json in Resources */ = {isa = PBXBuildFile; fileRef = 30FB0B9023A5EAA8000C619E /* Map.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		30FB0B8A23A5DBF1000C619E /* CompassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassManager.swift; sourceTree = "<group>"; };
 		30FB0B8C23A5DE2B000C619E /* DistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceManager.swift; sourceTree = "<group>"; };
 		30FB0B8E23A5E289000C619E /* DirectionalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionalData.swift; sourceTree = "<group>"; };
-		30FB0B9023A5EAA8000C619E /* map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = map.json; sourceTree = "<group>"; };
+		30FB0B9023A5EAA8000C619E /* Map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Map.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 				30FB0B8A23A5DBF1000C619E /* CompassManager.swift */,
 				30FB0B8C23A5DE2B000C619E /* DistanceManager.swift */,
 				30FB0B8623A59C1E000C619E /* NavigationViewController.swift */,
-				30FB0B9023A5EAA8000C619E /* map.json */,
+				30FB0B9023A5EAA8000C619E /* Map.json */,
 				30FB0B8E23A5E289000C619E /* DirectionalData.swift */,
 				30FB0B8823A59C60000C619E /* NavigationView.swift */,
 				30FB0B8423A58356000C619E /* QRScannerView.swift */,
@@ -151,7 +151,7 @@
 			files = (
 				3087263923A56EE500A9EC1F /* LaunchScreen.storyboard in Resources */,
 				3087263623A56EE500A9EC1F /* Assets.xcassets in Resources */,
-				30FB0B9123A5EAA8000C619E /* map.json in Resources */,
+				30FB0B9123A5EAA8000C619E /* Map.json in Resources */,
 				3087263423A56EE300A9EC1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
