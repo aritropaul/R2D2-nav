@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		3087262D23A56EE300A9EC1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3087262C23A56EE300A9EC1F /* AppDelegate.swift */; };
 		3087262F23A56EE300A9EC1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3087262E23A56EE300A9EC1F /* SceneDelegate.swift */; };
-		3087263123A56EE300A9EC1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3087263023A56EE300A9EC1F /* ViewController.swift */; };
 		3087263423A56EE300A9EC1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3087263223A56EE300A9EC1F /* Main.storyboard */; };
 		3087263623A56EE500A9EC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3087263523A56EE500A9EC1F /* Assets.xcassets */; };
 		3087263923A56EE500A9EC1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3087263723A56EE500A9EC1F /* LaunchScreen.storyboard */; };
+		30FB0B8123A57E1D000C619E /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8023A57E1D000C619E /* LaunchViewController.swift */; };
+		30FB0B8323A57E2A000C619E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8223A57E2A000C619E /* HomeViewController.swift */; };
+		30FB0B8523A58356000C619E /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8423A58356000C619E /* QRScannerView.swift */; };
+		30FB0B8723A59C1E000C619E /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8623A59C1E000C619E /* NavigationViewController.swift */; };
+		30FB0B8923A59C60000C619E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8823A59C60000C619E /* NavigationView.swift */; };
+		30FB0B8B23A5DBF1000C619E /* CompassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8A23A5DBF1000C619E /* CompassManager.swift */; };
+		30FB0B8D23A5DE2B000C619E /* DistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8C23A5DE2B000C619E /* DistanceManager.swift */; };
+		30FB0B8F23A5E289000C619E /* DirectionalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0B8E23A5E289000C619E /* DirectionalData.swift */; };
+		30FB0B9123A5EAA8000C619E /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = 30FB0B9023A5EAA8000C619E /* map.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3087262923A56EE300A9EC1F /* R2D2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R2D2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3087262C23A56EE300A9EC1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3087262E23A56EE300A9EC1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3087263023A56EE300A9EC1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3087263323A56EE300A9EC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3087263523A56EE500A9EC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3087263823A56EE500A9EC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3087263A23A56EE500A9EC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FB0B8023A57E1D000C619E /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		30FB0B8223A57E2A000C619E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		30FB0B8423A58356000C619E /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		30FB0B8623A59C1E000C619E /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		30FB0B8823A59C60000C619E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		30FB0B8A23A5DBF1000C619E /* CompassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassManager.swift; sourceTree = "<group>"; };
+		30FB0B8C23A5DE2B000C619E /* DistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceManager.swift; sourceTree = "<group>"; };
+		30FB0B8E23A5E289000C619E /* DirectionalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionalData.swift; sourceTree = "<group>"; };
+		30FB0B9023A5EAA8000C619E /* map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = map.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,16 @@
 			children = (
 				3087262C23A56EE300A9EC1F /* AppDelegate.swift */,
 				3087262E23A56EE300A9EC1F /* SceneDelegate.swift */,
-				3087263023A56EE300A9EC1F /* ViewController.swift */,
 				3087263223A56EE300A9EC1F /* Main.storyboard */,
+				30FB0B8A23A5DBF1000C619E /* CompassManager.swift */,
+				30FB0B8C23A5DE2B000C619E /* DistanceManager.swift */,
+				30FB0B8623A59C1E000C619E /* NavigationViewController.swift */,
+				30FB0B9023A5EAA8000C619E /* map.json */,
+				30FB0B8E23A5E289000C619E /* DirectionalData.swift */,
+				30FB0B8823A59C60000C619E /* NavigationView.swift */,
+				30FB0B8423A58356000C619E /* QRScannerView.swift */,
+				30FB0B8023A57E1D000C619E /* LaunchViewController.swift */,
+				30FB0B8223A57E2A000C619E /* HomeViewController.swift */,
 				3087263523A56EE500A9EC1F /* Assets.xcassets */,
 				3087263723A56EE500A9EC1F /* LaunchScreen.storyboard */,
 				3087263A23A56EE500A9EC1F /* Info.plist */,
@@ -127,6 +151,7 @@
 			files = (
 				3087263923A56EE500A9EC1F /* LaunchScreen.storyboard in Resources */,
 				3087263623A56EE500A9EC1F /* Assets.xcassets in Resources */,
+				30FB0B9123A5EAA8000C619E /* map.json in Resources */,
 				3087263423A56EE300A9EC1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3087263123A56EE300A9EC1F /* ViewController.swift in Sources */,
+				30FB0B8F23A5E289000C619E /* DirectionalData.swift in Sources */,
+				30FB0B8B23A5DBF1000C619E /* CompassManager.swift in Sources */,
+				30FB0B8923A59C60000C619E /* NavigationView.swift in Sources */,
+				30FB0B8723A59C1E000C619E /* NavigationViewController.swift in Sources */,
+				30FB0B8D23A5DE2B000C619E /* DistanceManager.swift in Sources */,
 				3087262D23A56EE300A9EC1F /* AppDelegate.swift in Sources */,
+				30FB0B8123A57E1D000C619E /* LaunchViewController.swift in Sources */,
 				3087262F23A56EE300A9EC1F /* SceneDelegate.swift in Sources */,
+				30FB0B8323A57E2A000C619E /* HomeViewController.swift in Sources */,
+				30FB0B8523A58356000C619E /* QRScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

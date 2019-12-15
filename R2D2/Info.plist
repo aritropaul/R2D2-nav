@@ -60,5 +60,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>QR Code Scanner</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Pedometer Usage</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Compass Usage</string>
 </dict>
 </plist>
